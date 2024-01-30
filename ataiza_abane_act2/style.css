@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; 
+    margin: 80px 0px; /* Add margin to the top and bottom */
+    padding: 50px; /* Add padding to create space between the content and the edges */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.box img {
+    width: 30%;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.left-box {
+    flex: 1;
+    background: linear-gradient(to bottom, #4f2424, #b36666); 
+   margin: 20px; 
+}
+
+.right-box {
+    flex: 1;
+     background: linear-gradient(to bottom, #4f2424, #b36666); 
+}
+
+.action-button {
+    background-color: #1db954;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 40%;
+}
+
+.action-button:hover {
+    background-color: #169147;
+}
+
+.box-title {
+    text-align: left; /* Align h3 to the left */
+    margin: 50px;
+}
+
+li{
+    text-align: left;
+    margin-left: 80px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.column {
+    flex: 1;
+    padding: 30px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Add this to your existing CSS */
+
+.white-box {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.white-box1 {
+    background-color: #4c4b4b;
+    padding: 110px;
+    margin: -20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.container-inside-white-box {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+}
+
+.container-inside-white-box img {
+    margin-right: 10px;
+}
+
+.white-box1 {
+    background-color: #fff;
+    padding: 0px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.container-inside-white-box1 {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+}
+
+.container-inside-white-box1 img {
+    margin-right: 30px; /* Add margin to the right side of the image */
+    width: 50px; /* Set the width of the image */
+    height: 50px; /* Set the height of the image */
+    border-radius: 5px; /* Add border-radius for a square appearance */
+    margin-bottom: 18px;
+    margin-top: 20px;
+}
+
+.songimg{
+    margin-left: 50px;
+}
+
+.text-with-margin {
+    margin-top: 30px; /* Add margin to the top of the text */
+}
